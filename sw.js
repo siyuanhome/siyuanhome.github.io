@@ -21,7 +21,7 @@ self.addEventListener('active', function () {
 });
 
 var precacheUrls = [
-'/','/posts/16107/','/posts/50416/','/gallery/index.html',
+'/','/posts/52747/','/posts/16107/','/posts/50416/','/gallery/index.html','/jenkins-CD-CD/index.html',
 ];
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":5};
